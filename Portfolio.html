@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shanvi Priya Verma | Portfolio</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- CSS START -->
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            background: linear-gradient(to right, #f2f2f2, #e6e9f0);
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #3f51b5, #5c6bc0);
+            color: rgb(69, 126, 232);
+            text-align: center;
+            padding: 60px 20px;
+            background-image: url('https://www.transparenttextures.com/patterns/diamond-upholstery.png');
+        }
+
+        header img {
+            width: 160px;
+            height: 160px;
+            border-radius:120%;
+            border: 4px solid rgb(13, 51, 162);
+            margin-bottom: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+
+        nav {
+            margin-top: 15px;
+        }
+
+        nav a {
+            color:rgba(255, 255, 255, 0.653) (18, 178, 187);
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #be310b;
+        }
+
+        section {
+            background-color: white;
+            margin: 30px auto;
+            padding: 25px;
+            border-radius: 12px;
+            max-width: 900px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #3f51b5;
+            border-bottom: 2px solid #3f51b5;
+            padding-bottom: 5px;
+        }
+
+        /* Skill Badges */
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            display: inline-block;
+            background: #e8eaf6;
+            margin: 6px;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            transition: background 0.3s ease, transform 0.2s ease;
+        }
+        ul li:hover {
+            background: #c5cae9;
+            transform: scale(1.1);
+        }
+
+        /* Project Cards */
+        .project-card {
+            background: #f9f9f9;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, background 0.3s ease;
+        }
+        .project-card:hover {
+            transform: translateY(-5px);
+            background: #eef2ff;
+        }
+        .project-card a {
+            display: inline-block;
+            margin-top: 10px;
+            background: #3f51b5;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: background 0.3s ease;
+        }
+        .project-card a:hover {
+            background: #ff9800;
+        }
+
+        /* Contact Buttons */
+        #contact a {
+            display: inline-block;
+            background: #3f51b5;
+            color: white;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: transform 0.3s ease, background 0.3s ease;
+        }
+        #contact a:hover {
+            background: #ff9800;
+            transform: scale(1.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: rgb(14, 112, 203);
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+    <!-- CSS END -->
+</head>
+
+<body>
+
+    <header>
+        <!-- Profile Image -->
+        <img src="/attachments/5SH9MStcdY6mMwJQXVJiA.jpeg" alt="Shanvi Priya Verma">
+        <h1>Shanvi Priya Verma</h1>
+        <p>B.Tech CSE (Data Science) Student | Fresher</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I’m Shanvi Priya Verma—a first-year B.Tech CSE (Data Science) student who loves turning code into creativity. 
+            Whether it’s solving puzzles in Python, styling sleek web pages with HTML/CSS, or experimenting with fun projects,
+            I enjoy mixing logic with imagination. My goal is to build tech that’s not just functional,
+            but also visually polished and delightful to use.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>C Programming</li>
+            <li>Python (Beginner)</li>
+            <li>Java (Beginner)</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>A responsive personal portfolio built with HTML, CSS, and JavaScript.</p>
+            <a href="https://github.com/Shanvipriyaverma/Protfolio.html.git" target="_blank">View on GitHub</a>
+        </div>
+        <div class="project-card">
+            <h3> C Mini Project</h3>
+            <p> Password Lock System </p>
+            <a href="https://github.com/Shanvipriyaverma/Shanvipriyaverma---11334.git" target="_blank">View on GitHub</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <a href="mailto:shanvi.verma@rungta.org">Email Me</a>
+        <a href="tel:+916206096648">Call Me</a>
+        <a href="https://www.linkedin.com/in/shanvi-priya-verma-767706383" target="_blank">LinkedIn</a>
+        <a href="https://github.com/Shanvipriyaverma" target="_blank">GitHub</a>
+        <a href="resume.pdf" target="_blank">Download Resume</a>
+    </section>
+
+    <footer>
+        <p>© 2025 Shanvi Priya Verma</p>
+    </footer>
+
+    <script>
+        alert("Welcome to my Portfolio Website!");
+    </script>
+
+</body>
+</html>
